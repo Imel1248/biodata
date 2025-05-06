@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jungkook Album</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <header class="bg-gray-900 text-white py-4 shadow-md">
+    <div class="container mx-auto px-4 flex items-center justify-between">
+
+      <!-- Title and Home Link -->
+      <a href="/" class="text-xl font-bold hover:text-gray-300">
+        IMI Music Agency - Jungkook Album
+      </a>
+
+      <!-- Navigation (You can add more links here) -->
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="landing.html" class="hover:text-gray-300">Home</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- Image Boxes Section -->
+  <section class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Image Box 1 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="https://ibighit.com/bts/images/bts/discography/jung-kook/never-let-go/album-cover.png" alt="Trulli" width="350" height="350"
+        </div>
+      </div>
+
+      <!-- Image Box 2 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="https://ibighit.com/bts/images/bts/discography/jung-kook/golden/discography-cover.png" alt="Trulli" width="350" height="350"
+        </div>
+      </div>
+
+      <!-- Image Box 3 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="https://ibighit.com/bts/images/bts/discography/jung-kook/3d/discography-cover.png" alt="Trulli" width="350" height="350" 
+        </div>
+      </div>
+
+<!-- Image Box 4 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="https://ibighit.com/bts/images/bts/discography/jung-kook/seven/discography-cover.png" alt="Trulli" width="350" height="350" 
+        </div>
+      </div>
+
+<!-- Image Box 5 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="https://ibighit.com/bts/images/bts/discography/jung-kook/my-you/discography-cover.jpg" alt="Trulli" width="350" height="350" 
+        </div>
+      </div>
+
+<!-- Image Box 6 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="https://ibighit.com/bts/images/bts/discography/jung-kook/still-with-you/discography-cover.jpg" alt="Trulli" width="350" height="350" 
+        </div>
+      </div>
+
+
+      <!-- You can add more image boxes here -->
+
+    </div>
+  </section>
+
+</body>
+</html>
+
+

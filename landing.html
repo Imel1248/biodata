@@ -45,6 +45,20 @@
             0%, 100% { transform: translateY(0); }
             50% { transform: translateY(-10px); }
         }
+        
+        /* Custom styling for embedded Google Form */
+        .google-form-container {
+            width: 100%;
+            height: 1200px; /* Adjust height as needed */
+            overflow: hidden;
+        }
+        
+        .google-form-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            background: transparent;
+        }
     </style>
 </head>
 
@@ -298,38 +312,17 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact Section with Embedded Google Form -->
     <section id="contact" class="py-16 bg-white">
         <div class="container mx-auto px-4 text-center">
             <h3 class="text-3xl font-bold mb-2">Join the <span class="text-yellow-500">ARMY</span></h3>
             <p class="text-gray-600 max-w-2xl mx-auto mb-8">Connect with fellow Jungkook fans and share your love!</p>
             
-            <div class="max-w-2xl mx-auto bg-gray-50 p-8 rounded-xl shadow-md">
-                <form>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                        <div>
-                            <label for="name" class="block text-gray-700 text-left mb-2">Your Name</label>
-                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500">
-                        </div>
-                        <div>
-                            <label for="email" class="block text-gray-700 text-left mb-2">Email Address</label>
-                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500">
-                        </div>
-                    </div>
-                    <div class="mb-6">
-                        <label for="message" class="block text-gray-700 text-left mb-2">Message to Jungkook</label>
-                        <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"></textarea>
-                    </div>
-                    <div class="mb-4">
-                        <label class="inline-flex items-center">
-                            <input type="checkbox" class="form-checkbox text-yellow-500">
-                            <span class="ml-2 text-gray-700">I want to receive Jungkook updates</span>
-                        </label>
-                    </div>
-                    <button type="submit" class="w-full bg-yellow-500 text-white py-3 rounded-lg font-bold hover:bg-yellow-600 transition flex items-center justify-center">
-                        <i class="fas fa-paper-plane mr-2"></i> Send Message
-                    </button>
-                </form>
+            <div class="max-w-4xl mx-auto bg-gray-50 p-8 rounded-xl shadow-md">
+                <h4 class="text-2xl font-bold mb-6 text-yellow-600">Jungkook Fan Survey</h4>
+                <div class="google-form-container">
+                    <iframe src="https://docs.google.com/forms/d/1twzsrBiIyN1hp9JR_3Upr23oxUwTbvnPgDKTu38ba5w/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
             </div>
         </div>
     </section>

@@ -1,1 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminar Exclusive: The Future of Education with Maudy Ayunda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'playfair': ['"Playfair Display"', 'serif'],
+                        'poppins': ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        'gold': '#D4AF37',
+                        'navy': '#0A2463',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-pattern {
+            background-image: radial-gradient(rgba(212, 175, 55, 0.2) 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+    </style>
+</head>
+<body class="font-poppins bg-gray-50">
+    <!-- Header -->
+    <header class="bg-navy text-white py-4 shadow-lg">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="text-2xl font-bold font-playfair">EDU<span class="text-gold">X</span></div>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-8">
+                    <li><a href="#about" class="hover:text-gold transition">About</a></li>
+                    <li><a href="#speaker" class="hover:text-gold transition">Speaker</a></li>
+                    <li><a href="#schedule" class="hover:text-gold transition">Schedule</a></li>
+                    <li><a href="#register" class="bg-gold text-navy px-4 py-2 rounded hover:bg-yellow-600 transition">Register Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <!-- Hero Section -->
+    <section class="hero-pattern py-20 md:py-32 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-navy/90 to-navy/70 z-0"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-12 md:mb-0 text-white">
+                    <h1 class="text-4xl md:text-6xl font-bold font-playfair mb-6 leading-tight">
+                        The Future of <span class="text-gold">Education</span> in Digital Era
+                    </h1>
+                    <p class="text-xl mb-8 max-w-lg">
+                        Join us for an exclusive seminar with Maudy Ayunda, exploring innovative approaches to education in the 21st century.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#register" class="bg-gold text-navy px-8 py-3 rounded-lg font-bold hover:bg-yellow-600 transition transform hover:scale-105">
+                            Secure Your Seat
+                        </a>
+                        <a href="#about" class="border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white/10 transition">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative">
+                        <div class="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gold shadow-xl">
+                            <img src="https://i.pinimg.com/originals/9e/1d/77/9e1d77b8d1e8c5e5e0e3e3d3b3b3b3b3.jpg" alt="Maudy Ayunda" class="w-full h-full object-cover">
+                        </div>
+                        <div class="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg">
+                            <div class="text-navy font-bold">Maudy Ayunda</div>
+                            <div class="text-sm text-gray-600">Speaker</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Details -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold font-playfair mb-4">Event <span class="text-gold">Details</span></h2>
+                <div class="w-24 h-1 bg-gold mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div class="text-center p-6 border border-gray-200 rounded-lg hover:shadow-lg transition">
+                    <div class="text-4xl text-gold mb-4">📅</div>
+                    <h3 class="text-xl font-bold mb-2">Date</h3>
+                    <p>Saturday, 25 November 2023</p>
+                </div>
+                <div class="text-center p-6 border border-gray-200 rounded-lg hover:shadow-lg transition">
+                    <div class="text-4xl text-gold mb-4">🕒</div>
+                    <h3 class="text-xl font-bold mb-2">Time</h3>
+                    <p>09:00 AM - 04:00 PM</p>
+                </div>
+                <div class="text-center p-6 border border-gray-200 rounded-lg hover:shadow-lg transition">
+                    <div class="text-4xl text-gold mb-4">📍</div>
+                    <h3 class="text-xl font-bold mb-2">Location</h3>
+                    <p>Grand Ballroom, JW Marriott Jakarta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Speaker -->
+    <section id="speaker" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold font-playfair mb-4">Our <span class="text-gold">Keynote Speaker</span></h2>
+                <div class="w-24 h-1 bg-gold mx-auto"></div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row items-center max-w-5xl mx-auto">
+                <div class="md:w-1/3 mb-8 md:mb-0 flex justify-center">
+                    <div class="w-64 h-64 rounded-full overflow-hidden border-4 border-gold shadow-lg">
+                        <img src="https://i.pinimg.com/originals/9e/1d/77/9e1d77b8d1e8c5e5e0e3e3d3b3b3b3b3.jpg" alt="Maudy Ayunda" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div class="md:w-2/3 md:pl-12">
+                    <h3 class="text-3xl font-bold font-playfair mb-4">Maudy Ayunda</h3>
+                    <p class="text-lg mb-6">
+                        A multi-talented Indonesian artist, singer, songwriter, actress, and scholar. Maudy holds degrees from Oxford University and Stanford University, making her a perfect bridge between arts and education.
+                    </p>
+                    <div class="mb-6">
+                        <h4 class="font-bold text-lg mb-2">Discussion Topics:</h4>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li>Balancing creativity and academic excellence</li>
+                            <li>Education reform in the digital age</li>
+                            <li>Women leadership in education</li>
+                            <li>Building a lifelong learning mindset</li>
+                        </ul>
+                    </div>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gold hover:text-yellow-600">
+                            <i class="fab fa-instagram text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gold hover:text-yellow-600">
+                            <i class="fab fa-twitter text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gold hover:text-yellow-600">
+                            <i class="fab fa-linkedin text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule -->
+    <section id="schedule" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold font-playfair mb-4">Event <span class="text-gold">Schedule</span></h2>
+                <div class="w-24 h-1 bg-gold mx-auto"></div>
+            </div>
+            
+            <div class="max-w-3xl mx-auto">
+                <div class="mb-8">
+                    <div class="flex items-start mb-6">
+                        <div class="bg-gold text-white rounded-lg p-3 mr-4 min-w-[80px] text-center">
+                            <div class="font-bold">08:00</div>
+                            <div class="text-xs">AM</div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">Registration</h3>
+                            <p class="text-gray-600">Welcome coffee and networking</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start mb-6">
+                        <div class="bg-gold text-white rounded-lg p-3 mr-4 min-w-[80px] text-center">
+                            <div class="font-bold">09:00</div>
+                            <div class="text-xs">AM</div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">Opening Keynote</h3>
+                            <p class="text-gray-600">"Redefining Education in the 21st Century" by Maudy Ayunda</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start mb-6">
+                        <div class="bg-gold text-white rounded-lg p-3 mr-4 min-w-[80px] text-center">
+                            <div class="font-bold">10:30</div>
+                            <div class="text-xs">AM</div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">Panel Discussion</h3>
+                            <p class="text-gray-600">"Technology in Education: Opportunities and Challenges"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start mb-6">
+                        <div class="bg-gold text-white rounded-lg p-3 mr-4 min-w-[80px] text-center">
+                            <div class="font-bold">12:00</div>
+                            <div class="text-xs">PM</div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">Lunch Break</h3>
+                            <p class="text-gray-600">Networking session</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start mb-6">
+                        <div class="bg-gold text-white rounded-lg p-3 mr-4 min-w-[80px] text-center">
+                            <div class="font-bold">01:30</div>
+                            <div class="text-xs">PM</div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">Workshop Session</h3>
+                            <p class="text-gray-600">"Designing Future-Ready Learning Experiences"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="bg-gold text-white rounded-lg p-3 mr-4 min-w-[80px] text-center">
+                            <div class="font-bold">03:30</div>
+                            <div class="text-xs">PM</div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">Closing Remarks</h3>
+                            <p class="text-gray-600">Q&A and photo session with Maudy Ayunda</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration -->
+    <section id="register" class="py-20 bg-navy text-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold font-playfair mb-4">Register <span class="text-gold">Now</span></h2>
+                    <p class="text-xl">Limited seats available for this exclusive event</p>
+                </div>
+                
+                <div class="bg-white text-gray-800 rounded-lg shadow-xl overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/2 bg-gold p-8 flex flex-col justify-center">
+                            <h3 class="text-2xl font-bold font-playfair mb-4">Why Attend?</h3>
+                            <ul class="space-y-4">
+                                <li class="flex items-start">
+                                    <div class="text-navy mr-3">✓</div>
+                                    <span>Exclusive insights from Maudy Ayunda</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <div class="text-navy mr-3">✓</div>
+                                    <span>Networking with education professionals</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <div class="text-navy mr-3">✓</div>
+                                    <span>Certificate of participation</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <div class="text-navy mr-3">✓</div>
+                                    <span>Lunch and coffee breaks included</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <div class="text-navy mr-3">✓</div>
+                                    <span>Special gift for early registrants</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="md:w-1/2 p-8">
+                            <form>
+                                <div class="mb-4">
+                                    <label class="block text-gray-700 mb-2">Full Name</label>
+                                    <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gold">
+                                </div>
+                                <div class="mb-4">
+                                    <label class="block text-gray-700 mb-2">Email</label>
+                                    <input type="email" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gold">
+                                </div>
+                                <div class="mb-4">
+                                    <label class="block text-gray-700 mb-2">Phone Number</label>
+                                    <input type="tel" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gold">
+                                </div>
+                                <div class="mb-6">
+                                    <label class="block text-gray-700 mb-2">Organization</label>
+                                    <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gold">
+                                </div>
+                                <button type="submit" class="w-full bg-navy text-white py-3 rounded font-bold hover:bg-blue-900 transition">
+                                    Complete Registration
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="md:flex md:justify-between">
+                <div class="mb-8 md:mb-0">
+                    <div class="text-2xl font-bold font-playfair mb-4">EDU<span class="text-gold">X</span></div>
+                    <p class="max-w-xs">Transforming education through innovative approaches and thought leadership.</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-gold transition">Home</a></li>
+                            <li><a href="#about" class="hover:text-gold transition">About</a></li>
+                            <li><a href="#speaker" class="hover:text-gold transition">Speaker</a></li>
+                            <li><a href="#schedule" class="hover:text-gold transition">Schedule</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold mb-4">Contact</h4>
+                        <ul class="space-y-2">
+                            <li>hello@edux.com</li>
+                            <li>+62 21 1234 5678</li>
+                            <li>JW Marriott Jakarta</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold mb-4">Follow Us</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gold hover:text-navy transition">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gold hover:text-navy transition">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gold hover:text-navy transition">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>© 2023 EDUX Seminar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
